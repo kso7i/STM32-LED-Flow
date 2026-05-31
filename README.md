@@ -31,7 +31,7 @@ STM32 HAL LED flow light example for beginners
 
 ## 效果图
 
-![流水灯效果](images/demo.jpg)
+<img width="1827" height="1827" alt="kiki_4_happy-1961966506428043505-img1" src="https://github.com/user-attachments/assets/ba38f880-43e3-4892-8183-2d05831d037b" />
 
 ## 核心代码
 
@@ -39,7 +39,7 @@ STM32 HAL LED flow light example for beginners
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 HAL_Delay(100);
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
-<img width="1827" height="1827" alt="kiki_4_happy-1961966506428043505-img1" src="https://github.com/user-attachments/assets/ba38f880-43e3-4892-8183-2d05831d037b" />
+
 ```
 学习重点
 GPIO 输出模式
