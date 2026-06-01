@@ -16,7 +16,7 @@ STM32 HAL LED flow light example for beginners
 - STM32CubeMX 配置 GPIO
 
 
-需要的硬件实物：
+## 需要的硬件实物
 - STM32F103 开发板
 - LED 模块或板载 LED
 - 杜邦线
