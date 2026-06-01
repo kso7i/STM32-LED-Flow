@@ -1,7 +1,6 @@
-# STM32 LED Flow Light
+# STM32 LED Flow Light  （使用F103C8T6芯片，也可以使用其他芯片，原理都是通用的）
 
-STM32 HAL LED flow light example for beginners
-
+ 
 
 这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
 
