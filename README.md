@@ -25,22 +25,41 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 - `HAL_Delay()` delay function
 
 ## 需要的硬件实物
-- STM32F103 开发板
-- LED 模块或板载 LED
-- 杜邦线
-- USB 下载器：例如ST-Link（需要安装驱动），推荐使用DAP-Link（免驱）
+
+* STM32F103 开发板
+* LED 模块或板载 LED
+* 杜邦线
+* USB 下载器：例如 ST-Link（需要安装驱动），推荐使用 DAP-Link（免驱）
+
+## Required Hardware
+
+* STM32F103 development board
+* LED module or onboard LEDs
+* Dupont wires
+* USB programmer/debugger: for example, ST-Link requires driver installation, while DAP-Link is usually driver-free
 
 ## 引脚连接
 
-| LED | STM32 引脚 |
-|---|---|
-| LED1 | PA0 |
-| LED2 | PA1 |
-| LED3 | PA2 |
-| LED4 | PA3 |
- 
+| LED  | STM32 引脚 |
+| ---- | -------- |
+| LED1 | PA0      |
+| LED2 | PA1      |
+| LED3 | PA2      |
+| LED4 | PA3      |
+
+## Pin Connection
+
+| LED  | STM32 Pin |
+| ---- | --------- |
+| LED1 | PA0       |
+| LED2 | PA1       |
+| LED3 | PA2       |
+| LED4 | PA3       |
 
 ## 效果图
+
+## Demo Image
+
 
  
  
