@@ -9,12 +9,20 @@ This is a beginner-friendly LED flow light project based on the STM32 HAL librar
 Use an STM32 microcontroller to control multiple LEDs and turn them on one by one, creating a basic LED flow light effect. 
 
 ## 学习重点
+
 - STM32CubeMX 配置 GPIO
 - GPIO 输出模式
-- 使用Keil软件编程
+- 使用 Keil 软件编程
 - `HAL_GPIO_WritePin()` 函数
 - `HAL_Delay()` 延时函数
 
+## Learning Points
+
+- STM32CubeMX GPIO configuration
+- GPIO output mode
+- Programming with Keil
+- `HAL_GPIO_WritePin()` function
+- `HAL_Delay()` delay function
 
 ## 需要的硬件实物
 - STM32F103 开发板
