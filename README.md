@@ -6,15 +6,14 @@ STM32 HAL LED flow light example for beginners
 这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
 
 ## 项目功能：使用 STM32 控制多个 LED 依次点亮，实现基础流水灯效果。
+ 
 
+## 学习重点
 
-
-## 学习重点:
-GPIO 输出模式
-HAL_GPIO_WritePin 函数
-HAL_Delay 延时函数
-STM32CubeMX 配置 GPIO
-## 使用硬件
+- GPIO 输出模式
+- `HAL_GPIO_WritePin()` 函数
+- `HAL_Delay()` 延时函数
+- STM32CubeMX 配置 GPIO
 
 - STM32F103 开发板
 - LED 模块或板载 LED
