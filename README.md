@@ -30,10 +30,7 @@ STM32 HAL LED flow light example for beginners
 | LED2 | PA1 |
 | LED3 | PA2 |
 | LED4 | PA3 |
-| LED5 | PA4 |
-| LED6 | PA5 |
-| LED7 | PA6 |
-| LED8 | PA7 |
+ 
 
 ## 效果图
 
