@@ -2,6 +2,7 @@
 This project uses the STM32F103C8T6 chip as an example. Other STM32 chips can also be used, because the basic GPIO control principle is the same.
 
 ##这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
+
 This is a beginner-friendly LED flow light project based on the STM32 HAL library. It is suitable for students who are just starting to learn STM32 GPIO output control.
 
 ## 项目功能：使用 STM32 控制多个 LED 依次点亮，实现基础流水灯效果。
