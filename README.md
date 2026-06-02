@@ -90,6 +90,7 @@ Please search for installation tutorials on Google, or ask ChatGPT for guidance.
 
 Tutorial Video 0 Goal:After completing this tutorial, you should be able to open STM32CubeMX and Keil successfully.
 ## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
+## Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
 教学视频1要实现的目标：
 
 - 1.配置GPIO
@@ -100,7 +101,7 @@ Tutorial Video 0 Goal:After completing this tutorial, you should be able to open
 - 6.其他相关设置
 - 7.生成Keil工程并且编译通过
 
-## Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
+
 
 
 
