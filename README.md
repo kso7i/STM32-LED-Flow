@@ -157,9 +157,8 @@ Objective of Tutorial Video 3: Download the program successfully.
 
 
 https://github.com/user-attachments/assets/99a7db45-5897-492d-9604-65ae8dd509a1
-## 最终的效果
-## Demo Result
- 
+## 手动复位芯片。得到最终的效果
+## Manually reset the chip to see the final result.
 
 https://github.com/user-attachments/assets/2950ba71-0bfd-4824-aaa8-51fa5051d00b
 
