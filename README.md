@@ -78,7 +78,10 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 | LED2 | PA1       |
 | LED3 | PA2       |
 | LED4 | PA3       |
-
+## 原理图和实物接线图
+## Schematic Diagram and Physical Wiring Diagram
+<img width="1247" height="731" alt="Schematic Diagram" src="https://github.com/user-attachments/assets/866d4bf4-c1a3-4d42-8154-c02207ae0d62" />
+<img width="4000" height="3000" alt="Physical Wiring Diagram" src="https://github.com/user-attachments/assets/a787f076-6a08-4b79-a443-89ca191ed9b0" />
 
 
 ## 教学视频0： 安装STM32CubeM，安装 Keil 
