@@ -88,15 +88,18 @@ Please search for installation tutorials on Google, or ask ChatGPT for guidance.
 
 教学视频0要实现的目标：能打开STM32CubeM和Keil 
 
-Tutorial Video 0 Goal
-
-After completing this tutorial, you should be able to open STM32CubeMX and Keil successfully.
+Tutorial Video 0 Goal:After completing this tutorial, you should be able to open STM32CubeMX and Keil successfully.
 ## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
 教学视频1要实现的目标：
 
-配置GPIO,RCC,SYS,配置时钟树，配置工程名字并和存储文件夹的位置，生成Keil工程并且编译通过
+1.配置GPIO
+2.配置RCC
+3.配置SYS
+4.配置配置时钟树
+5.配置工程名字并和存储文件夹的位置
+6.其他相关设置
+7.生成Keil工程并且编译通过
 
-2.
 ## Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
 
 
