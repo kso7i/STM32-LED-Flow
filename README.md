@@ -124,6 +124,8 @@ https://github.com/user-attachments/assets/25778a27-5b26-4297-9fab-60124dad6223
 ## 教学视频2：使用 ChatGPT 进行 Keil 编程
 ## Tutorial Video 2: Keil Programming with ChatGPT
 教学视频2要实现的目标：输入核心代码到main()函数的 while (1){}循环里
+
+Tutorial Video 2: Objective: Enter the core code into the `while (1) {}` loop inside the `main()` function.**
 ## 核心代码
 ## Core Code
 ```c
@@ -144,7 +146,7 @@ https://github.com/user-attachments/assets/25778a27-5b26-4297-9fab-60124dad6223
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
 ```
-Tutorial Video 2: Objective: Enter the core code into the `while (1) {}` loop inside the `main()` function.**
+
 
 
 
