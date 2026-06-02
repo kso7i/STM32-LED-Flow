@@ -81,13 +81,22 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 
 ## Demo Image
 ## 教学视频0： 安装STM32CubeM，安装 Keil 
-请谷歌搜索安装教程，或者询问ChatGPT
 ## Tutorial Video 0: Installing STM32CubeMX and Keil
+请谷歌搜索安装教程，或者询问ChatGPT
 
 Please search for installation tutorials on Google, or ask ChatGPT for guidance.
 
-## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
+教学视频0要实现的目标：能打开STM32CubeM和Keil 
 
+Tutorial Video 0 Goal
+
+After completing this tutorial, you should be able to open STM32CubeMX and Keil successfully.
+## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
+教学视频1要实现的目标：
+
+配置GPIO,RCC,SYS,配置时钟树，配置工程名字并和存储文件夹的位置，生成Keil工程并且编译通过
+
+2.
 ## Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
 
 
@@ -107,9 +116,21 @@ https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
 ## 核心代码
 
 ```c
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-HAL_Delay(100);
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
+    HAL_Delay(200);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_RESET);
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);
+    HAL_Delay(200);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+    HAL_Delay(200);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+    HAL_Delay(200);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
 ```
 
