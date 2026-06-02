@@ -1,8 +1,10 @@
-# STM32 LED Flow Light with ChatGPT
 
-This project uses the STM32F103C8T6 as an example. Other STM32 chips can also be used, because the basic GPIO control principle is generally the same.
+## STM32 HAL LED Flow Light Experiment Based on STM32F103C8T6 with ChatGPT  
+STM32 HAL 库的流水灯实验（基于STMF103C8T6）
+
 
 本项目以 STM32F103C8T6 芯片为例，也可以使用其他 STM32 芯片，基本 GPIO 控制原理都是通用的。
+This project uses the STM32F103C8T6 as an example. Other STM32 chips can also be used, because the basic GPIO control principle is generally the same.
 
 ## 中文说明
 
@@ -15,11 +17,7 @@ This project uses the STM32F103C8T6 as an example. Other STM32 chips can also be
 This is a beginner-friendly LED flow light project based on the STM32 HAL library. It is suitable for students who are just starting to learn STM32 GPIO output control.
 
 ChatGPT was used to assist with code generation and documentation, helping beginners understand the basic workflow of STM32 GPIO output control more efficiently.
-
-## 这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
-
-This is a beginner-friendly LED flow light project based on the STM32 HAL library. It is suitable for students who are just starting to learn STM32 GPIO output control. 
-
+ 
 ## 项目功能：使用 STM32 控制多个 LED 依次点亮，实现基础流水灯效果。
 Use an STM32 microcontroller to control multiple LEDs and turn them on one by one, creating a basic LED flow light effect. 
 
