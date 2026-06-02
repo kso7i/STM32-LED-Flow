@@ -42,8 +42,9 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 
 * STM32F103 开发板
 * LED 模块或板载 LED
-* 杜邦线
+* 杜邦线和面包板
 * USB 下载器：例如 ST-Link（需要安装驱动），推荐使用 DAP-Link（免驱）
+* 1KΩ 电阻
 
 ## 需要的软件工具 
 * Keil
@@ -55,9 +56,10 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 ## Required Hardware
 
 * STM32F103 development board
-* LED module or onboard LEDs
-* Dupont wires
-* USB programmer/debugger: for example, ST-Link requires driver installation, while DAP-Link is usually driver-free
+* LED module or onboard LED
+* Jumper wires and a breadboard
+* USB programmer/debugger: for example, ST-Link, which requires driver installation. DAP-Link is recommended because it is driver-free.
+* 1 kΩ resistor
 
 ## 引脚连接
 
@@ -77,9 +79,8 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 | LED3 | PA2       |
 | LED4 | PA3       |
 
-## 效果图
 
-## Demo Image
+
 ## 教学视频0： 安装STM32CubeM，安装 Keil 
 ## Tutorial Video 0: Installing STM32CubeMX and Keil
 请谷歌搜索安装教程，或者询问ChatGPT
@@ -120,17 +121,6 @@ https://github.com/user-attachments/assets/25778a27-5b26-4297-9fab-60124dad6223
 ## 教学视频2：使用 ChatGPT 进行 Keil 编程
 ## Tutorial Video 2: Keil Programming with ChatGPT
 教学视频2要实现的目标：输入核心代码到main()函数的 while (1){}循环里
-
-Tutorial Video 2: Objective: Enter the core code into the `while (1) {}` loop inside the `main()` function.**
-
-
-
- 
-
-https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
-
-
-
 ## 核心代码
 ## Core Code
 ```c
@@ -151,4 +141,28 @@ https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
 ```
+Tutorial Video 2: Objective: Enter the core code into the `while (1) {}` loop inside the `main()` function.**
+
+
+
+ 
+
+https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
+
+## 教学视频3：使用Keil下载hex文件
+## Tutorial Video 3: Downloading the HEX File with Keil 
+教学视频3要实现的目标：成功下载
+
+Objective of Tutorial Video 3: Download the program successfully.
+
+
+https://github.com/user-attachments/assets/99a7db45-5897-492d-9604-65ae8dd509a1
+## 最终的效果
+## Demo Result
+ 
+
+https://github.com/user-attachments/assets/2950ba71-0bfd-4824-aaa8-51fa5051d00b
+
+
+
 
