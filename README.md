@@ -4,6 +4,7 @@ STM32 HAL 库的流水灯实验（基于STMF103C8T6）
 
 
 本项目以 STM32F103C8T6 芯片为例，也可以使用其他 STM32 芯片，基本 GPIO 控制原理都是通用的。
+
 This project uses the STM32F103C8T6 as an example. Other STM32 chips can also be used, because the basic GPIO control principle is generally the same.
 
 ## 中文说明
