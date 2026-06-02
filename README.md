@@ -93,7 +93,7 @@ Tutorial Video 0 Goal:After completing this tutorial, you should be able to open
 ## Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
 教学视频1要实现的目标：
 
-- 1.配置GPIO
+- 1.配置GPIO的PA0,PA1,PA2,PA3 
 - 2.配置RCC
 - 3.配置SYS
 - 4.配置配置时钟树
@@ -101,7 +101,15 @@ Tutorial Video 0 Goal:After completing this tutorial, you should be able to open
 - 6.其他相关设置
 - 7.生成Keil工程并且编译通过
 
+## Tutorial Video 1: Objectives
 
+- Configure GPIO PA0,PA1,PA2,PA3 
+- Configure RCC
+- Configure SYS
+- Configure the clock tree
+- Set the project name and project save location
+- Complete other related settings
+- Generate the Keil project and make sure it compiles successfully
 
 
 
@@ -111,6 +119,12 @@ https://github.com/user-attachments/assets/25778a27-5b26-4297-9fab-60124dad6223
 
 ## 教学视频2：使用 ChatGPT 进行 Keil 编程
 ## Tutorial Video 2: Keil Programming with ChatGPT
+教学视频2要实现的目标：输入核心代码到main()函数的 while (1){}循环里
+
+Tutorial Video 2: Objective: Enter the core code into the `while (1) {}` loop inside the `main()` function.**
+
+
+
  
 
 https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
@@ -118,7 +132,7 @@ https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
 
 
 ## 核心代码
-
+## Core Code
 ```c
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
     HAL_Delay(200);
