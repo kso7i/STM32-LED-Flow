@@ -100,6 +100,10 @@ https://github.com/user-attachments/assets/25778a27-5b26-4297-9fab-60124dad6223
 ## Tutorial Video 2: Keil Programming with ChatGPT
  
 
+https://github.com/user-attachments/assets/3921d96a-85ed-4ba0-9f5e-435d06ce9df7
+
+
+
 ## 核心代码
 
 ```c
