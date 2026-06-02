@@ -45,6 +45,13 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 * 杜邦线
 * USB 下载器：例如 ST-Link（需要安装驱动），推荐使用 DAP-Link（免驱）
 
+## 需要的软件工具 
+* Keil
+* STM32CubeMX 
+## Software Requirements
+
+- Keil
+- STM32CubeMX
 ## Required Hardware
 
 * STM32F103 development board
@@ -73,6 +80,11 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 ## 效果图
 
 ## Demo Image
+## 教学视频0： 安装STM32CubeM，安装 Keil 
+请谷歌搜索安装教程，或者询问ChatGPT
+## Tutorial Video 0: Installing STM32CubeMX and Keil
+
+Please search for installation tutorials on Google, or ask ChatGPT for guidance.
 
 ## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
 
