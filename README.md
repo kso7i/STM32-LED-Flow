@@ -1,7 +1,21 @@
-# STM32 LED Flow Light  （使用F103C8T6芯片，也可以使用其他芯片，原理都是通用的）
-This project uses the STM32F103C8T6 chip as an example. Other STM32 chips can also be used, because the basic GPIO control principle is the same.
-- 使用 ChatGPT 编程生成相关代码
-- Generate the related code with ChatGPT
+# STM32 LED Flow Light with ChatGPT
+
+This project uses the STM32F103C8T6 as an example. Other STM32 chips can also be used, because the basic GPIO control principle is generally the same.
+
+本项目以 STM32F103C8T6 芯片为例，也可以使用其他 STM32 芯片，基本 GPIO 控制原理都是通用的。
+
+## 中文说明
+
+这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
+
+本项目使用 ChatGPT 辅助生成相关代码和文档说明，帮助初学者更快理解 STM32 GPIO 输出控制的基本流程。
+
+## English Description
+
+This is a beginner-friendly LED flow light project based on the STM32 HAL library. It is suitable for students who are just starting to learn STM32 GPIO output control.
+
+ChatGPT was used to assist with code generation and documentation, helping beginners understand the basic workflow of STM32 GPIO output control more efficiently.
+
 ## 这是一个基于 STM32 HAL 库的流水灯入门项目，适合刚开始学习 STM32 GPIO 输出控制的同学。
 
 This is a beginner-friendly LED flow light project based on the STM32 HAL library. It is suitable for students who are just starting to learn STM32 GPIO output control. 
