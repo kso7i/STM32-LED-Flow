@@ -77,8 +77,11 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 ## 教学视频1： 配置STM32CubeMX的GPIO并且创建Keil工程
 
 Tutorial Video 1: GPIO Configuration in STM32CubeMX and Keil Project Creation
+
 https://github.com/user-attachments/assets/ac8120e3-7a0f-4d45-a9a8-62b6adbf306c
+
 ## 教学视频2：使用ChatGPT进行Keil编程
+
 Tutorial Video 2: Keil Programming with ChatGPT
 
  
