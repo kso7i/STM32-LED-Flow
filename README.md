@@ -49,11 +49,12 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 ## 需要的软件工具 
 * Keil
 * STM32CubeMX 
-## Software Requirements
+* S请根据需要下载并安装仓库的相关驱动
 
-- Keil
-- STM32CubeMX
-## Required Hardware
+## Required Software Tools
+* Keil
+* STM32CubeMX
+* Please download the CH340 driver and ST-LINK driver from the Releases section of this repository if needed.
 
 * STM32F103 development board
 * LED module or onboard LED
