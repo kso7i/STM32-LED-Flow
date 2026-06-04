@@ -46,6 +46,15 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 * USB 下载器：例如 ST-Link（需要安装驱动），推荐使用 DAP-Link（免驱）
 * 1KΩ 电阻
 
+## Required Hardware Components
+* STM32F103 development board
+* LED module or onboard LED
+* Jumper wires and a breadboard
+* USB programmer/debugger: for example, ST-Link, which requires driver installation. DAP-Link is recommended because it is driver-free.
+* 1 kΩ resistor
+
+
+
 ## 需要的软件工具 
 * Keil
 * STM32CubeMX 
@@ -56,11 +65,7 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 * STM32CubeMX
 * Please download the CH340 driver and ST-LINK driver from the Releases section of this repository if needed.
 
-* STM32F103 development board
-* LED module or onboard LED
-* Jumper wires and a breadboard
-* USB programmer/debugger: for example, ST-Link, which requires driver installation. DAP-Link is recommended because it is driver-free.
-* 1 kΩ resistor
+
 
 ## 引脚连接
 
