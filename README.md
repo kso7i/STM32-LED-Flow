@@ -1,5 +1,5 @@
 
-## STM32 HAL LED Flow Light Experiment Based on STM32F103C8T6 with ChatGPT  
+## STM32 LED Flow Light Experiment Based on STM32F103C8T6 Using ChatGPT and the HAL Library
 STM32 HAL 库的流水灯实验（基于STMF103C8T6）
 
 
