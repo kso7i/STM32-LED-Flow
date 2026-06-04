@@ -90,7 +90,7 @@ Use an STM32 microcontroller to control multiple LEDs and turn them on one by on
 <img width="4000" height="3000" alt="Physical Wiring Diagram" src="https://github.com/user-attachments/assets/a787f076-6a08-4b79-a443-89ca191ed9b0" />
 
 
-## 教学视频0： 安装STM32CubeM，安装 Keil 
+## 教学视频0： 安装STM32CubeMX，安装 Keil 
 ## Tutorial Video 0: Installing STM32CubeMX and Keil
 请谷歌搜索安装教程，或者询问ChatGPT
 
