@@ -173,6 +173,6 @@ https://github.com/user-attachments/assets/99a7db45-5897-492d-9604-65ae8dd509a1
 
 https://github.com/user-attachments/assets/2950ba71-0bfd-4824-aaa8-51fa5051d00b
 
-
-
+## 教学视频4：下载已经编译好的仓库工程文件并且导入
+## Tutorial Video 4: Download and Import the Precompiled Project Files from the Repository
 
